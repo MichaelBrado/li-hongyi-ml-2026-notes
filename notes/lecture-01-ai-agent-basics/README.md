@@ -39,6 +39,8 @@ Agent会自己创建工具
 
 **举例**：
 
+![Sub-agent示例](images/image_1.png)
+
 **特点**：
 1. 节省上下文 -> context engineering
 2. 无sub-sub agent（避免层层外包）
@@ -60,6 +62,8 @@ Agent会自己创建工具
 
 **具体做法**：
 
+![获取记忆具体做法](images/image_2.png)
+
 ## 如何定时工作
 
 ### 心跳（HEARTBEAT）机制
@@ -73,6 +77,8 @@ Agent会自己创建工具
 **作用**：让机器学会等待
 
 **举例**：
+
+![Cron job举例](images/image_3.png)
 
 **操作方法**：在MEMORY.md中设定
 
